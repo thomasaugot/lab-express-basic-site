@@ -1,3 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body {
-    /* background-color: blue; */
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: 50px;
+}
+
+nav a {
+  padding: 0 1rem;
+  font-size: 20px;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+/* Home page */
+
+#main-page {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 1000;
+  padding: 10px 55px;
+  background: #40a798;
+}
+
+h1 span {
+  font-size: 20px;
+}
+
+.text {
+  font-weight: 800;
+  text-align: left;
+  padding: 100px;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.text span {
+  font-size: 15px;
+}
+
+#main-page img {
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-left: 110px;
+  height: 75%;
+  width: auto;
+  background-color: #393e46;
+}
+
+/* Career Page */
+
+h2 {
+  font-size: 35px;
+  font-weight: 1000;
+  padding: 10px 55px;
+  background: #40a798;
+}
+
+.TextStyleOne {
+  font-size: 25px;
+  font-weight: 1000;
+  padding: 20px 55px;
+}
+
+/* Gallery Page */
+
+.gallery {
+  display: flex;
+  padding: 2px;
+  margin: 50px 0;
+  overflow: hidden;
 }
